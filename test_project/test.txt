@@ -1,2 +1,6 @@
 123456
 654321
+
+
+1.修改MySQL的配置文件（默认为/etc/my.cnf）,在[mysqld]下添加一行skip-grant-tables
+2.保存配置文件后，重启MySQL服务 service mysqld restart
